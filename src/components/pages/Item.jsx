@@ -135,7 +135,7 @@ function Item() {
         </div>
         {movies.map(bgMovie => (
           <>
-            <div key={bgMovie.id} className='px-3'>
+            <div key={bgMovie.id} className='px-10'>
               {selectedId === bgMovie.id && showBgMovie && (
                 <div className='text-white flex flex-col gap-5'>
                   <div className='flex flex-col gap-4'>
