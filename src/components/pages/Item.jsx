@@ -110,7 +110,7 @@ function Item() {
                         <img
                           src={movie?.image}
                           alt="movie"
-                          className={`w-[325px] h-18 ${selectedId === movie.id ? 'cursor-pointer' : ''}`}
+                          className={`w-[360px] h-18 ${selectedId === movie.id ? 'cursor-pointer' : ''}`}
                         />
                         <div
                           onClick={() => handleImageClick(movie.id)}
@@ -145,7 +145,7 @@ function Item() {
                   <img
                     src={bgMovie?.imageBg}
                     alt="bgMovie"
-                    className='bg-cover w-full h-[500px] rounded-md' />
+                    className='bg-cover w-full h-[630px] rounded-md' />
                 </div>
               )}
             </div>
