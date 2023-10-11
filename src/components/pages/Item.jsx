@@ -104,22 +104,20 @@ function Item() {
               <>
                 <div className='flex flex-col relative'>
                   <div key={movie.id}>
-                    <div>
-                      <div className='relative custom-hover'
-                      >
-                        <img
-                          src={movie?.image}
-                          alt="movie"
-                          className={`w-[360px] h-18 ${selectedId === movie.id ? 'cursor-pointer' : ''}`}
-                        />
-                        <div
-                          onClick={() => handleImageClick(movie.id)}
-                          className='text-white opacity-50 transition-opacity text-center absolute bottom-0 w-full h-10 bg-black cursor-pointer flex justify-center items-center arrow-down' >
-                          <label
-                          >
-                            <BiDownArrow size={30} className='cursor-pointer' />
-                          </label>
-                        </div>
+                    <div className='relative custom-hover'
+                    >
+                      <img
+                        src={movie?.image}
+                        alt="movie"
+                        className={`w-[360px] h-18 ${selectedId === movie.id ? 'cursor-pointer' : ''}`}
+                      />
+                      <div
+                        onClick={() => handleImageClick(movie.id)}
+                        className='text-white opacity-50 transition-opacity text-center absolute bottom-0 w-full h-10 bg-black cursor-pointer flex justify-center items-center arrow-down' >
+                        <label
+                        >
+                          <BiDownArrow size={30} className='cursor-pointer' />
+                        </label>
                       </div>
                     </div>
                   </div>
