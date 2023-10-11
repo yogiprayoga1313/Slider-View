@@ -137,7 +137,7 @@ function Item() {
           <>
             <div key={bgMovie.id} className='px-3'>
               {selectedId === bgMovie.id && showBgMovie && (
-                <div className='text-white flex gap-5'>
+                <div className='text-white md:flex flex flex-col gap-5'>
                   <div className='flex flex-col gap-4'>
                     <span className='text-3xl w-[300px]'>{bgMovie?.title}</span>
                     <span className='opacity-70  w-[620px]'>{bgMovie?.descriptions}</span>
@@ -145,7 +145,7 @@ function Item() {
                   <img
                     src={bgMovie?.imageBg}
                     alt="bgMovie"
-                    className='bg-cover w-full h-[630px] rounded-md' />
+                    className='bg-cover w-full md:h-[630px] h-[400px] rounded-md' />
                 </div>
               )}
             </div>
