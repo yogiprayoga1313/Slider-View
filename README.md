@@ -1,3 +1,3 @@
 # React + Vite
 
-(src/assets/images/slider-view-page.png)
+![Dekstop](src/assets/images/slider-view-page.png)
