@@ -140,12 +140,12 @@ function Item() {
                 <div className='text-white flex gap-5'>
                   <div className='flex flex-col gap-4'>
                     <span className='text-3xl w-[300px]'>{bgMovie?.title}</span>
-                    <span className='opacity-70  w-[620px]'>{bgMovie?.descriptions}</span>
+                    <span className='opacity-70 w-[820px]'>{bgMovie?.descriptions}</span>
                   </div>
                   <img
                     src={bgMovie?.imageBg}
                     alt="bgMovie"
-                    className='bg-cover w-full h-[630px] rounded-md' />
+                    className='bg-cover w-[1000px] h-[580px] rounded-md' />
                 </div>
               )}
             </div>
